@@ -146,7 +146,7 @@ async def main():
         offset_date=None,
         offset_id=0,
         offset_peer=InputPeerEmpty(),
-        limit=200,
+        limit=500,
         hash=0
     ))
     chats.extend(result.chats)
